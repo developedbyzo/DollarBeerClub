@@ -1,0 +1,28 @@
+{
+    "homepage": "http://codenamequet.github.io/beer-club-front-end",
+    "name": "beer-club",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "axios": "^0.17.1",
+        "gh-pages": "^1.1.0",
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0",
+        "react-lorem": "^1.0.13",
+        "react-materialize": "^1.1.2",
+        "react-parallax": "^1.6.0",
+        "react-router-dom": "^4.2.2",
+        "react-scripts": "1.1.0",
+        "react-scrollable-anchor": "^0.5.0",
+        "react-toggle-display": "^2.2.0",
+        "uuid": "^3.2.1"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
+    }
+}

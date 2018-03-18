@@ -1,0 +1,19 @@
+.centered-header {
+  position: absolute;
+  top: 50%;
+  left: 62%;
+  transform: translate(-500%, -50%);
+}
+.page-header {
+  background: #757163 !important;
+}
+.search-bar {
+  position: absolute;
+    top: 8px;
+    left: 16px;
+    transform: translate(-140%, 100%);
+  background: black;
+}
+#sticky-nav {
+  position: relative;
+}
