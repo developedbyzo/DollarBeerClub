@@ -53,7 +53,7 @@ class Header extends Component {
                 <Route path='/register' component={Register} />
                 <Route path='/about' component={About} />
                 <Route path='/cart' component={ShoppingCart} />
-                <Route path='/success' coponent={SuccessPage} />
+                <Route path='/success' component={SuccessPage} />
                 <Route path='/' component={Landing} />
               </Switch>
             </div>
