@@ -1,11 +1,10 @@
 {
-    "homepage": "http://codenamequet.github.io/beer-club-front-end",
-    "name": "beer-club",
+    "homepage": "http://mosesa0609.github.io/DollarBeerClub",
+    "name": "dollarbeerclub",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
         "axios": "^0.17.1",
-        "gh-pages": "^1.1.0",
         "react": "^16.2.0",
         "react-dom": "^16.2.0",
         "react-lorem": "^1.0.13",
@@ -23,6 +22,9 @@
         "test": "react-scripts test --env=jsdom",
         "eject": "react-scripts eject",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
+        "deploy": "npm run build&&gh-pages -d build"
+    },
+    "devDependencies": {
+        "gh-pages": "^1.1.0"
     }
 }
